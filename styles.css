@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: greenyellow
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+.service {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: greenyellow;
+    cursor: pointer;
+    text-align: center;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input, #contact-form textarea, #contact-form button {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#form-message {
+    color: rgb(129, 214, 31);
+    font-weight: bold;
+    margin-top: 10px;
+}
